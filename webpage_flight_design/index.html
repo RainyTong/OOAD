@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Flight form</title>
+		<link rel="stylesheet" type="text/css" href="css/form.css" />
+		<script type="text/javascript" src="js/form.js"></script>
+		<!--<script type="text/javascript" src="jquery.js"></script>-->
+
+	</head>
+	<body onload="initial()">
+
+		<button onclick="myFunction()">Show/hide the form</button>
+
+		<table id="background-image">
+		<caption id="a"><h2>Flight List</h2></caption> <tr>
+			<th>Flight No.</th> <th>Airline Company</th> <th>From</th> <th>To</th> <th>Date</th> <th>Departure Time</th> <th>Arrival Time</th> <th>Flight Status</th> <th></th>
+			</tr>
+		<tbody id="tbody" style="display: none"> 
+			<tr>
+			<td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>
+			<input type="button" value="Delete" onclick = "removeRow(this)"> </td>
+			</tr>
+		</tbody> </table>
+		
+		<div id="toggle">
+			<form name="form1">
+				<h1>Form
+					<span>Please fill all the texts in the fields.</span>
+				</h1>
+				Flight No.: <input type="text" name="flight-no"/><br>
+				
+				Airline Company: <input type="text" name= "airline-company"/><br>
+				
+				From: <input type="text" name="from"/><br>
+				
+				To: <input type="text" name="to" /><br>
+				
+				Date:
+				<p></p>
+
+				<select id="year" onchange="setMonth()">
+					
+				</select> year
+				<select id="month" onchange="setDay()"></select> month
+				<select id="day" onchange="setDHour()"></select> day <br>
+				
+				Departure Time:
+				<p></p>
+				<select id="dhour" onchange="setDMinute()"></select>:
+				<select id="dminute" onchange="setAHour()"></select><br>
+				
+				Arrival Time:
+				<p></p>
+				<select id="ahour" onchange="setAMinute()"></select>:
+				<select id="aminute"></select><br>
+				
+				Flight Status:<br>
+				<p></p>
+				<input type="radio" name="status" id="normal" value="normal">normal
+				<p></p>
+				<input type="radio" name="status" id="delayed" value="delayed">delayed
+				<p></p>
+				<input type="radio" name="status" id="cancelled" value="cancelled">cancelled<br>
+				<p></p>
+				
+				<input type="button" value="Add Flight" onclick="onClickAddFlight()"><br>
+				
+			</form>
+		</div>
+
+
+
+
+		<script>
+            function myFunction() {
+                var x = document.getElementById("toggle");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+		</script>
+
+	</body>
+</html>
