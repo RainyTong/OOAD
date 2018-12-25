@@ -12,3 +12,14 @@
 
 :wink:Liskov Substitution Principle —— Let q(x) be a property provable about objects x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
 
+---
+
+SimUDuck Example:
+
+- Different ducks **extends** Duck;
+
+- Duck **has-a** FlyBehavior and QuackBehavior;
+- Specific behaviors **implements** FlyBehavior and QuackBehavior.
+
+![image-20181225173503775](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181225173503775.png)
+
