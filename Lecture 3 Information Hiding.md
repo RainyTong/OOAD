@@ -26,7 +26,7 @@ Key concepts:
 
 "Breaking a program into modules and <u>what are likely to change independently should be secrets of seperate modules.</u>" 代码模块的内部结构应该是外部不可见的。
 
-![image-20181222105831792](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181222105831792.png)
+![image-20181222105831792](./img/image-20181222105831792.png)
 
 > Interface 定义稳定的部分(stable aspects), implementations 定义可变的部分(changeable adpects).
 
