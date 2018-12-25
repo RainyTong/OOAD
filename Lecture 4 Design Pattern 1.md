@@ -21,5 +21,5 @@ SimUDuck Example:
 - Duck **has-a** FlyBehavior and QuackBehavior;
 - Specific behaviors **implements** FlyBehavior and QuackBehavior.
 
-![image-20181225173503775](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181225173503775.png)
+![image-20181225173503775](./img/image-20181225173503775.png)
 
