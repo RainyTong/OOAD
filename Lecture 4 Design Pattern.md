@@ -1,6 +1,6 @@
-# Design pattern 1
+# Design pattern 
 
-### Strategy Pattern
+### 1 Strategy Pattern
 
 > - "Gang of Four " ==> 4 authors of the book *Design Patterns: Elements of Reusable Object-Oriented Software*
 
@@ -22,4 +22,16 @@ SimUDuck Example:
 - Specific behaviors **implements** FlyBehavior and QuackBehavior.
 
 ![image-20181225173503775](./img/image-20181225173503775.png)
+
+
+
+### 2 Observer Pattern
+
+![image-20181227095721757](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181227095721757.png)
+
+vs. java 内置的观察者模式
+
+![image-20181227100418852](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181227100418852.png)
+
+
 
