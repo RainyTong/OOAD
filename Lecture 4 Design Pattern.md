@@ -27,11 +27,11 @@ SimUDuck Example:
 
 ### 2 Observer Pattern
 
-![image-20181227095721757](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181227095721757.png)
+![image-20181227095721757](./img/image-20181227095721757.png)
 
 vs. java 内置的观察者模式
 
-![image-20181227100418852](/Users/wangyutong/Library/Application Support/typora-user-images/image-20181227100418852.png)
+![image-20181227100418852](./img/image-20181227100418852.png)
 
 
 
