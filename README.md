@@ -1,2 +1,8 @@
-# sustc-cs309-ooad
-Labs &amp; notes for the course OOAD(Object Oriented Analysis Design） at SUSTech. :baby:
+# SUSTech-CS309-OOAD
+> Labs &amp; notes for CS309 OOAD(Object Oriented Analysis Design）@ SUSTech by Rainy Tong
+
+### Content
+
+- [Codes for design patterns](https://github.com/RainyTong/CS309-OOAD/tree/master/code)
+- [Notes for CH3 Information Hiding](https://github.com/RainyTong/CS309-OOAD/blob/master/Lecture%203%20Information%20Hiding.md)
+- [Notes for CH4 Design Pattern](https://github.com/RainyTong/CS309-OOAD/blob/master/Lecture%204%20Design%20Pattern.md)
