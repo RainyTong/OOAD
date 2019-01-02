@@ -12,7 +12,7 @@
 
 1. use case diagram
 
-![image-20190102110847071](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102110847071.png)
+![image-20190102110847071](./img/image-20190102110847071.png)
 
 火柴人代表了Actor，椭圆代表了use case
 
@@ -22,7 +22,7 @@ Actor是可以调用use case的一个角色
 
 连线表示了association的关系
 
-![image-20190102111643628](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102111643628.png)
+![image-20190102111643628](./img/image-20190102111643628.png)
 
 use cases之间存在关系
 
@@ -34,7 +34,7 @@ use cases之间存在关系
 
 2. statechart diagram
 
-![image-20190102142023494](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102142023494.png)
+![image-20190102142023494](./img/image-20190102142023494.png)
 
 黑色实心圆圈代表了起始状态 **initial state**
 
@@ -52,7 +52,7 @@ state上，transition上都会有**action**
 
 > Models the **static** relationships between the components of a system.
 
-![image-20190102143218331](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102143218331.png)
+![image-20190102143218331](./img/image-20190102143218331.png)
 
 *Note*: The multiplicity of a class is specified by a number in the upper right corner of the component. 类的多重性由组件右上角的数字制定，通常会省略因为一般来说是大于1，如果指定是1那说明这个class是一个singleton（单例）。
 
@@ -64,7 +64,7 @@ state上，transition上都会有**action**
 
 - (依赖)Dependency : 
 
-![image-20190102151501469](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102151501469.png)
+![image-20190102151501469](./img/image-20190102151501469.png)
 
 依赖(Dependency)描述的是一个类的引用用作另一个类的方法的参数。
 
@@ -82,7 +82,7 @@ public abstract class Calendar {
 
 - (关联)Association：
 
-![image-20190102151715636](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102151715636.png)
+![image-20190102151715636](./img/image-20190102151715636.png)
 
 关联描述两个类之间行为的一般二元关系。[has-a]
 
@@ -123,7 +123,7 @@ public class Faculty {
 
 - (聚合)Aggregation：
 
-![image-20190102151914266](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102151914266.png)
+![image-20190102151914266](./img/image-20190102151914266.png)
 
 聚合是一种特殊的关联(Association)形式，表示两个对象之间的所属(has-a)关系。
 
@@ -143,7 +143,7 @@ public class Employee {
 
 - (组合)Composition：
 
-![image-20190102152019225](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102152019225.png)
+![image-20190102152019225](./img/image-20190102152019225.png)
 
 聚合是一种较弱形式的对象包含(一个对象包含另一个对象)关系。较强形式是组合(Composition).。在组合关系中包含对象负责被包含对象的创建以及生命周期，即当包含对象被销毁时被包含对象也会不复存在。
 
@@ -203,7 +203,7 @@ public class Engine {
 
 - (继承)Generalization(Inheritance):
 
-![image-20190102152325351](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102152325351.png)
+![image-20190102152325351](./img/image-20190102152325351.png)
 
 继承(Inheritance)模拟两个类之间的is-a关系。强是(strong is-a)关系描述两个类之间的直接继承关系。弱是(weak is-a)关系描述一个类具有某个属性。强是关系可以用类的继承表示。
 
@@ -219,7 +219,7 @@ public abstract class ApplicationEvent extends EventObject {
 
 - (实现)Realization:
 
-![image-20190102152440015](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102152440015.png)
+![image-20190102152440015](./img/image-20190102152440015.png)
 
 实现(Realization)描述的是一个类实现了接口（可以是多个）。上面描述的弱是(weak is-a)关系就可以用接口表示。
 
@@ -249,11 +249,11 @@ Focus on <font color=red>commnication</font> between elements.
 
 1. Sequence diagrams
 
-![image-20190102154330514](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102154330514.png)
+![image-20190102154330514](./img/image-20190102154330514.png)
 
 举例：
 
-![image-20190102154524043](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102154524043.png)
+![image-20190102154524043](./img/image-20190102154524043.png)
 
 ```java
 public class A {
@@ -266,40 +266,5 @@ public class A {
     }
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
