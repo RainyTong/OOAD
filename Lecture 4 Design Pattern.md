@@ -41,7 +41,7 @@ vs. java 内置的观察者模式
 
 > 将两个继承体系聚合/组合连接在一起，这就是桥接模式。 
 
-![image-20190102091600283](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102091600283.png)
+![image-20190102091600283](./img/image-20190102091600283.png)
 
 ---
 
