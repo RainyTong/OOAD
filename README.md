@@ -4,5 +4,8 @@
 ### Content
 
 - [Codes for design patterns](https://github.com/RainyTong/CS309-OOAD/tree/master/code)
+- [Notes for CH2 UML](https://github.com/RainyTong/CS309-OOAD/blob/master/Lecture%202%20UML.md)
 - [Notes for CH3 Information Hiding](https://github.com/RainyTong/CS309-OOAD/blob/master/Lecture%203%20Information%20Hiding.md)
 - [Notes for CH4 Design Pattern](https://github.com/RainyTong/CS309-OOAD/blob/master/Lecture%204%20Design%20Pattern.md)
+
+:star:Note: For OO design patterns, the notes are incomplete...
