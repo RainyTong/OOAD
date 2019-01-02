@@ -35,3 +35,19 @@ vs. java 内置的观察者模式
 
 
 
+---
+
+### 9 Bridge Pattern 桥接模式
+
+> 将两个继承体系聚合/组合连接在一起，这就是桥接模式。 
+
+![image-20190102091600283](/Users/wangyutong/Library/Application Support/typora-user-images/image-20190102091600283.png)
+
+---
+
+### 10 Flyweight Pattern 享元模式
+
+当对象太多时，会导致性能下降cost太高的问题。所以享元模式通过共享技术实现相同或相似对象的重用。
+
+
+
