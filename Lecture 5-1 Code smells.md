@@ -1,6 +1,6 @@
-## 整理总结 **重构 **部分
+## 整理总结 **重构** 部分
 
-#####一、Code smells.
+##### 一、Code smells.
 
 1. Duplicated code
 
